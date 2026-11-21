@@ -12,4 +12,4 @@ Nhắc lại: không đưa ảnh cabin hay ảnh tài xế (kể cả ảnh ch�
 | 6 | Claude Code | Viết nháp mục "Điều mình học được hôm nay" trong TEAM.md, dựa trên các lỗi thật trong bài | Giữ lại sau khi đọc lại | Đối chiếu với disagreement_log và các lần sửa v2 |
 | 7 | Claude Code | Điền `self_review.md` từ các lỗi thật của mình (diff v1/v2, diff với Hiếu): `hand` trên ảnh OMS, đảo trái/phải mắt ở D04 | Giữ lại sau khi đọc lại | Đối chiếu kết quả `cabin_check diff` và ảnh trên CVAT |
 | 8 | Claude Code | Nháp `ir_log.csv` từ nhãn trong `export_final_v2.zip` (mắt unknown, cờ face13, ghế S03/S05) | Tự xem lại ảnh trên CVAT để xác nhận hiện tượng rồi mới giữ | Ảnh trên CVAT local |
-| 9 | Claude Code | Điền sẵn cột lớp và giá trị của `class_list_v0.md` từ GUIDE 4.1 | Tự viết cột "để làm gì", cột IR và 2 câu hỏi leo thang | Đối chiếu slide 54 |
+| 9 | Claude Code | Viết nháp toàn bộ `class_list_v0.md`: lớp và giá trị từ GUIDE 4.1, cột "để làm gì", cột IR, 2 câu hỏi leo thang từ ca thật D03, D04 | Đọc lại và giữ những ý mình đồng ý | Đối chiếu slide 54, GUIDE 4.5–4.8, disagreement_log |
